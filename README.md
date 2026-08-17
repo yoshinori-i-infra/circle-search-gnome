@@ -1,5 +1,7 @@
 # 🎨 Circle to Search for GNOME (Go & GTK4 / Cairo)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+
 Androidの「**Circle to Search（かこって検索）**」機能を Linux (GNOME Desktop) 環境向けに再現したCLI/デスクトップユーティリティツールです。
 
 画面の気になる部分をマウスドラッグで囲むだけで、高精細スクショから対象領域を即座に切り抜き、AI（今ポートフォリオではGoogle社のAntigravity）が内容を日本語で自動解析・解説します。
@@ -122,3 +124,9 @@ go test -v ./...
    - ターミナルを開かずに、DBus / OS通知経由で解析結果をクイック確認                                
  - [ ] **設定ファイル（YAML/JSON）対応**
    - プロンプトテンプレートや使用モデル、保存先キャッシュパス等を柔軟にカスタマイズ可能にする
+
+---
+
+## 📄 ライセンス
+
+本プロジェクトは [MIT License](./LICENSE) のもとで公開されています。
