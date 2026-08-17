@@ -1,5 +1,5 @@
 {
-  "uuid": "circle-search-capture@huslabo",
+  "uuid": "circle-search-capture@y-i-infra",
   "name": "Circle Search Capture Helper",
   "description": "Exposes an unrestricted DBus endpoint for instant screenshot capture",
   "shell-version": ["45", "46", "47", "48", "49", "50"],
